@@ -138,7 +138,7 @@ def SendMail():
     #image = MIMEImage(img_data, name=os.path.basename(ImgFileName))
     #msg.attach(image)
 
-    s = smtplib.SMTP('mrithusree1@gmail.com', brahmavishnushivan@3)
+    s = smtplib.SMTP('mrithusree1@gmail.com', pw)
     s.ehlo()
     s.starttls()
     s.ehlo()
